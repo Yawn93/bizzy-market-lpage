@@ -1,0 +1,71 @@
+.hero {
+    background: linear-gradient(#ffffff, #D7E7B6);
+    color: #fff;
+    padding: 50px 0 0 0;
+    color: #1e1e1e;
+  }
+  .feature-card img {
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+  footer {
+    background-color: #45634C;
+    color: #fff;
+    padding: 30px 0;
+  }
+  footer a {
+    color: #fff;
+  }
+  nav{
+    background-color: #ffffff;
+  }
+
+  .btn-primary{
+    background-color: #F09663;
+    color: white;
+    border:none;
+  }
+
+  .btn-primary:hover{
+    background-color: #d67e4a;
+    color: white;
+    border:none;
+  }
+
+  .testimonials {
+    background: linear-gradient(#D7E7B6, white);
+  }
+
+  .testimonials p {
+    margin-bottom: 30px;
+  }
+
+  .testimonials .feature-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .accordion-button{
+    border-bottom: 2px solid #F09663;
+  }
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff !important;
+    color: #1e1e1e;
+  }
+  
+  .accordion-button:not(.collapsed):hover,
+  .accordion-button:not(.collapsed):focus {
+    background-color: #ffffff !important; 
+    color: #1e1e1e;
+  }
+
+  .faq p {
+    margin-bottom: 30px;
+  }
+
+
+  .contacts p{
+    margin-bottom: 30px;
+  }
