@@ -16,8 +16,10 @@
   footer a {
     color: #fff;
   }
+
   nav{
     background-color: #ffffff;
+    z-index: 1030;
   }
 
   .btn-primary{
@@ -34,6 +36,10 @@
 
   .testimonials {
     background: linear-gradient(#D7E7B6, white);
+  }
+
+  .second-row{
+    background: linear-gradient(white, #D7E7B6);
   }
 
   .testimonials p {
@@ -68,4 +74,17 @@
 
   .contacts p{
     margin-bottom: 30px;
+  }
+
+  .newsletter{
+    background-color: #D7E7B6;
+  }
+
+  footer {
+    background-color: #45634C;
+    color: #ffffff;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
