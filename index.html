@@ -39,7 +39,7 @@
   <div class="container text-center text-lg-start d-lg-flex align-items-center">
     <div class="col-lg-6">
       <h1>Damos voz aos criadores locais</h1>
-      <h3>Junta-te ao movimento Bizzy</h2>
+      <h2>Junta-te ao movimento Bizzy</h2>
       <p class="lead">Most fonts have a particular weight which corresponds to one of the numbers in Common weight name mapping. However some fonts, called variable fonts, can support a range of weights with a more or less fine granularity, and this can give the designer a much closer degree of control over the chosen weight.</p>
       <div>
         <a href="#"><img src="./assets/app-store.png" /></a>
@@ -214,7 +214,7 @@
     <p class="text-center">Most fonts have a particular weight which corresponds to one of the numbers in Common</p>
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <form>
+        <form id="myForm">
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" id="name" class="form-control">
@@ -237,8 +237,13 @@
             <label for="email" class="form-label">Email</label>
             <input type="email" id="email" class="form-control">
           </div>
-          <div class="sucessmessage" id="successMessage"><span>Com sucesso! Obrigada por apoiar o mercado local 🌿</span><button onclick="closeMessage()" id="close"><i class="bi bi-x-lg"></i></button></div>
-          <button type="submit" class="btn btn-primary">Send</button>
+          <div id="successMessage">
+            <div class="sucessmessage">
+              <span>Com sucesso! Obrigada por apoiar o mercado local 🌿</span>
+              <button type="button" id="closeButton"><i class="bi bi-x-lg"></i></button>
+            </div>
+          </div>
+          <button type="submit" id="submitBtn" class="btn btn-primary">Send</button>
         </form>
       </div>
     </div>
@@ -253,10 +258,16 @@
       <p>
         Most fonts have a particular weight which corresponds to one of the numbers in Common
       </p>
-      <form class="d-flex justify-content-center align-items-center">
+      <form class="d-flex justify-content-center align-items-center" id="newsForm">
         <input type="email" class="form-control me-2" placeholder="Email" style="max-width: 300px;">
-        <button type="submit" class="btn btn-dark">Sign up</button>
+        <button type="submit" class="btn btn-dark" id="signupBtn">Sign up</button>
       </form>
+      <div id="sucessmessageNews">
+            <div class="sucessmessageNews">
+              <span>Com sucesso! Veja a sua caixa de correio eletrónico 📨</span>
+              <button type="button" id="closeButtonNews"><i class="bi bi-x-lg"></i></button>
+            </div>
+          </div>
     </div>
   </section>
 
