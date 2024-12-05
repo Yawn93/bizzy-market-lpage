@@ -1,90 +1,100 @@
 .hero {
-    background: linear-gradient(#ffffff, #D7E7B6);
-    color: #fff;
-    padding: 50px 0 0 0;
-    color: #1e1e1e;
-  }
-  .feature-card img {
-    max-width: 100px;
-    margin-bottom: 15px;
-  }
-  footer {
-    background-color: #45634C;
-    color: #fff;
-    padding: 30px 0;
-  }
-  footer a {
-    color: #fff;
-  }
+  background: linear-gradient(#ffffff, #d7e7b6);
+  color: #fff;
+  padding: 50px 0 0 0;
+  color: #1e1e1e;
+  height: 100%;
+}
+.feature-card img {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+footer {
+  background-color: #45634c;
+  color: #fff;
+  padding: 30px 0;
+}
+footer a {
+  color: #fff;
+}
 
-  nav{
-    background-color: #ffffff;
-    z-index: 1030;
-  }
+nav {
+  background-color: #ffffff;
+  z-index: 1030;
+}
 
-  .btn-primary{
-    background-color: #F09663;
-    color: white;
-    border:none;
-  }
+.btn-primary {
+  background-color: #f09663;
+  color: white;
+  border: none;
+}
 
-  .btn-primary:hover{
-    background-color: #d67e4a;
-    color: white;
-    border:none;
-  }
+.btn-primary:hover {
+  background-color: #d67e4a;
+  color: white;
+  border: none;
+}
 
-  .testimonials {
-    background: linear-gradient(#D7E7B6, white);
-  }
+.testimonials {
+  background: linear-gradient(#d7e7b6, white);
+}
 
-  .second-row{
-    background: linear-gradient(white, #D7E7B6);
-  }
+.second-row {
+  background: linear-gradient(white, #d7e7b6);
+}
 
-  .testimonials p {
-    margin-bottom: 30px;
-  }
+.testimonials p {
+  margin-bottom: 30px;
+}
 
-  .testimonials .feature-card {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 20px;
-  }
+.testimonials .feature-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
 
-  .accordion-button{
-    border-bottom: 2px solid #F09663;
-  }
+.accordion-button {
+  border-bottom: 2px solid #f09663;
+}
 
 .accordion-button:not(.collapsed) {
-    background-color: #ffffff !important;
-    color: #1e1e1e;
-  }
-  
-  .accordion-button:not(.collapsed):hover,
-  .accordion-button:not(.collapsed):focus {
-    background-color: #ffffff !important; 
-    color: #1e1e1e;
-  }
+  background-color: #ffffff !important;
+  color: #1e1e1e;
+}
 
-  .faq p {
-    margin-bottom: 30px;
-  }
+.accordion-button:not(.collapsed):hover,
+.accordion-button:not(.collapsed):focus {
+  background-color: #ffffff !important;
+  color: #1e1e1e;
+}
 
+.faq p {
+  margin-bottom: 30px;
+}
 
-  .contacts p{
-    margin-bottom: 30px;
-  }
+.contacts p {
+  margin-bottom: 30px;
+}
 
-  .newsletter{
-    background-color: #D7E7B6;
-  }
+.newsletter {
+  background-color: #d7e7b6;
+}
 
-  footer {
-    background-color: #45634C;
-    color: #ffffff;
-  }
+footer {
+  background-color: #45634c;
+  color: #ffffff;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+.sucessmessage {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 2px solid #45634c;
+  background-color: #d7e7b6;
+  margin-bottom: 16px;
+}
