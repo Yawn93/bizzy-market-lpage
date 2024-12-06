@@ -1,3 +1,4 @@
+/* HERO */
 .hero {
   background: linear-gradient(#ffffff, #d7e7b6);
   color: #fff;
@@ -5,24 +6,35 @@
   color: #1e1e1e;
   height: 100%;
 }
+
+/* UPS */
 .feature-card img {
   max-width: 100px;
   margin-bottom: 15px;
 }
+
+/* FOOTER */
 footer {
   background-color: #45634c;
   color: #fff;
   padding: 30px 0;
 }
+
 footer a {
   color: #fff;
 }
 
+/* NAV */
 nav {
   background-color: #ffffff;
-  z-index: 1030;
+  z-index: 2000;
 }
 
+a.nav-link:hover {
+  color: #d67e4a;
+}
+
+/* BTNS */
 .btn-primary {
   background-color: #f09663;
   color: white;
@@ -35,6 +47,25 @@ nav {
   border: none;
 }
 
+.btn-default{
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.btn-default:hover{
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.dropdown-toggle{
+  text-align: start;
+}
+
+input::placeholder{
+  color: rgb(236, 236, 236);
+}
+
+/* TESTIMONIALS */
 .testimonials {
   background: linear-gradient(#d7e7b6, white);
 }
@@ -53,6 +84,7 @@ nav {
   border-radius: 20px;
 }
 
+/* FAQS */
 .accordion-button {
   border-bottom: 2px solid #f09663;
 }
@@ -72,23 +104,43 @@ nav {
   margin-bottom: 30px;
 }
 
+/* CONTACTS */
 .contacts p {
   margin-bottom: 30px;
 }
 
+/* NEWSLETTER */
 .newsletter {
   background-color: #d7e7b6;
 }
 
-footer {
-  background-color: #45634c;
-  color: #ffffff;
-}
-
+/* PAGE */
 html {
   scroll-behavior: smooth;
 }
 
+.uptop{
+  border-radius: 5px;
+  background-color: #d67e4a;
+  color: #fff;
+  font-size: large;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.uptop:hover{
+  border-radius: 5px;
+  background-color: #b8693b;
+  color: #fff;
+  font-size: large;
+  padding: 5px 10px;
+}
+
+html, body {
+  overflow: visible;
+}
+
+/* SUCCESS MESSAGE DIVS */
 .sucessmessage {
   display: flex;
   justify-content: space-between;
@@ -111,7 +163,7 @@ html {
   margin-top: 16px;
 }
 
-/* scrollbar */
+/* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 20px;
 }
