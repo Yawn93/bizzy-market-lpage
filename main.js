@@ -41,3 +41,13 @@ document.getElementById("newsForm").addEventListener("submit", (event) => {
 closeButtonNews.addEventListener("click", () => {
   sucessmessageNews.style.display = "none"; // Hide the success message
 });
+
+//Dropdown Assunto da Mensagem
+document.querySelectorAll('.dropdown-item').forEach(function (item) {
+  item.addEventListener('click', function (e) {
+    e.preventDefault();
+    const selectedText = this.textContent;
+    const dropdownButton = document.getElementById('dropdownMenuButton');
+    dropdownButton.textContent = selectedText;
+  });
+});
