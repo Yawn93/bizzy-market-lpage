@@ -30,7 +30,6 @@ footer a {
   color: #d7e7b6;
 }
 
-
 /* NAV */
 nav {
   background-color: #ffffff;
@@ -43,38 +42,38 @@ a.nav-link:hover {
 
 /* BTNS */
 .btn-primary {
-  background-color: #f09663;
+  background-color: #45634c;
   color: white;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #d67e4a;
+  background-color: #344b39;
   color: white;
   border: none;
 }
 
-.btn-default{
+.btn-default {
   border-radius: 5px;
   border: 1px solid lightgray;
 }
 
-.btn-default:hover{
+.btn-default:hover {
   border-radius: 5px;
   border: 1px solid lightgray;
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
   text-align: start;
 }
 
-#closeButton, #closeButtonNews{
+#closeButton,
+#closeButtonNews {
   border-radius: 5px;
   border: none;
   background-color: #38503d;
   color: #fff;
 }
-
 
 /* TESTIMONIALS */
 .testimonials {
@@ -130,7 +129,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.uptop{
+.uptop {
   border-radius: 5px;
   background-color: #d67e4a;
   color: #fff;
@@ -139,7 +138,7 @@ html {
   text-decoration: none;
 }
 
-.uptop:hover{
+.uptop:hover {
   border-radius: 5px;
   background-color: #b8693b;
   color: #fff;
@@ -147,11 +146,12 @@ html {
   padding: 5px 10px;
 }
 
-html, body {
+html,
+body {
   overflow: visible;
 }
 
-h2{
+h2 {
   font-size: 40px;
 }
 
