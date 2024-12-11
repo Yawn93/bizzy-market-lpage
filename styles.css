@@ -40,6 +40,11 @@ a.nav-link:hover {
   color: #d67e4a;
 }
 
+a:focus,
+button:focus {
+  outline: 2px solid #d67e4a; /* High-contrast focus style */
+}
+
 /* BTNS */
 .btn-primary {
   background-color: #45634c;
