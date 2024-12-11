@@ -42,7 +42,7 @@ a.nav-link:hover {
 
 a:focus,
 button:focus {
-  outline: 2px solid #d67e4a; /* High-contrast focus style */
+  outline: 2px solid #d67e4a;
 }
 
 /* BTNS */
@@ -163,6 +163,16 @@ h2 {
 h1 {
   font-weight: bold;
   font-size: 56px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
 }
 
 /* SUCCESS MESSAGE DIVS */
